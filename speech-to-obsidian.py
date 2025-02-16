@@ -3,7 +3,7 @@ import numpy as np
 import wavio
 import datetime
 
-recording = 'output.csv'
+recording = 'output.wav'
 
 # Parameters
 duration = 5  # seconds
