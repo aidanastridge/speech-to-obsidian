@@ -15,4 +15,5 @@ Records and transcribes daily-note into Obsidian vault.
 ### Questions? 
 Why export to json instead of straight to Markdown?
 <br>
+Checking if the conversion is the problem.
 
