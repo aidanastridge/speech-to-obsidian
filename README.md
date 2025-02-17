@@ -10,7 +10,7 @@ Records and transcribes daily-note into Obsidian vault.
 2. Export to WAV
 3. Transcribe
 4. Export to JSON
-5. Covert to Markdown
+5. Convert to Markdown
 
 ### Questions? 
 Why export to json instead of straight to Markdowm?
