@@ -1,5 +1,18 @@
 ## Speech to Obsidian
 
-Through a batch command and python:
+### Thesis
 
-Records audio; exports it to Whisper; transcribed audio is converted/saved in Markdown and placed into an Obsidian vault.
+Records and transcribes daily-note into Obsidian vault.
+
+### Order of Operations
+
+1. Record
+2. Export to WAV
+3. Transcribe
+4. Export to JSON
+5. Covert to Markdown
+
+### Questions? 
+Why export to json instead of straight to Markdowm?
+<br>
+
