@@ -1,10 +1,10 @@
-## Speech to Obsidian
+### Speech to Obsidian
 
-### Thesis
+#### Thesis
 
 Records and transcribes daily-note into Obsidian vault.
 
-### Order of Operations
+#### Order of Operations
 
 1. Record
 2. Export to WAV
@@ -12,8 +12,11 @@ Records and transcribes daily-note into Obsidian vault.
 4. Export to JSON
 5. Convert to Markdown
 
-### Questions? 
+#### Questions? 
 Why export to json instead of straight to Markdown?
 <br>
 Checking if the conversion is the problem.
 
+#### License
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/aidanastridge/obsidian-nutmeg/blob/master/LICENSE) file for details.
