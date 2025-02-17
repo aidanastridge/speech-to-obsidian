@@ -13,6 +13,6 @@ Records and transcribes daily-note into Obsidian vault.
 5. Convert to Markdown
 
 ### Questions? 
-Why export to json instead of straight to Markdowm?
+Why export to json instead of straight to Markdown?
 <br>
 
