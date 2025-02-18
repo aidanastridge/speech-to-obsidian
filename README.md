@@ -4,6 +4,19 @@
 
 Records and transcribes daily-note into Obsidian vault.
 
+#### Libraries
+sounddevice 
+<br>
+wavio
+<br>
+datetime
+<br>
+whisper
+<br>
+json
+<br>
+markitdown
+
 #### Order of Operations
 
 1. Record
