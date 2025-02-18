@@ -8,36 +8,37 @@ from pathlib import Path
 import json
 from markitdown import MarkItDown
 
+# Constants
+RECORDING_DURATION = 80  # seconds
+SAMPLE_RATE = 44100  # Hz
+RECORDING_PATH = 'output.wav'
+TRANSCRIPT_PATH = 'transcript.json'
+DAILY_NOTES_PATH = 'Daily notes'
+
 # Get today's date
 today_date = datetime.datetime.now().strftime('%Y-%m-%d')
 
-# Paths
-recording = 'output.wav'
-
-# Parameters
-duration = 10  # seconds
-sample_rate = 44100  # Hz
-
 # Record audio
 print("Recording...")
-audio_data = sd.rec(int(duration * sample_rate), samplerate=sample_rate, channels=1, dtype='int16')
+audio_data = sd.rec(int(RECORDING_DURATION * SAMPLE_RATE), samplerate=SAMPLE_RATE, channels=1, dtype='int16')
 sd.wait()  # Wait until recording is finished
 print("Recording complete.")
 
-wavio.write(recording, audio_data, sample_rate, sampwidth=2)
+wavio.write(RECORDING_PATH, audio_data, SAMPLE_RATE, sampwidth=2)
 
-model = whisper.load_model('tiny')
-path = Path(recording)
+# Transcribe audio
+model = whisper.load_model('small')
+result = model.transcribe(RECORDING_PATH, language='en', verbose=True)
 
-result = model.transcribe(str(path), language='en', verbose=True)
-
-# Dump the results to a JSON file
-with open('transcript.json', "w") as file:
+# Save transcript to JSON
+with open(TRANSCRIPT_PATH, "w") as file:
     json.dump(result['text'], file, indent=4)
 
-md = MarkItDown() # Set to True to enable plugins
-result = md.convert('transcript.json')
+# Convert transcript to Markdown
+md = MarkItDown()  # Set to True to enable plugins
+result = md.convert(TRANSCRIPT_PATH)
 
-with open(f'{today_date}.md', 'w') as f:
+# Save Markdown to daily notes file
+with open(f'{DAILY_NOTES_PATH}/{today_date}.md', 'w') as f:
     f.write(result.text_content)
 
