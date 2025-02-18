@@ -7,7 +7,7 @@ import json
 from markitdown import MarkItDown
 
 # Constants
-RECORDING_DURATION = 80  # seconds
+RECORDING_DURATION = 60  # seconds
 SAMPLE_RATE = 44100  # Hz
 RECORDING_PATH = '/Users/aidanastridge/Documents/recordings/output.wav'
 TRANSCRIPT_PATH = '/Users/aidanastridge/Documents/recordings/transcript.json'
