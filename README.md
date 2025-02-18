@@ -19,4 +19,4 @@ Checking if the conversion is the problem.
 
 #### License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/aidanastridge/obsidian-nutmeg/blob/master/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/aidanastridge/speech-to-obsidian/blob/main/LICENSE) file for details.
