@@ -1,9 +1,8 @@
 sounddevice
-numpy
 wavio
 markitdown
 openai-whisper
 datetime
 SpeechRecognition
 json
-Path
+
