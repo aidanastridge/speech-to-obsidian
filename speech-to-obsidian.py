@@ -9,9 +9,9 @@ from markitdown import MarkItDown
 # Constants
 RECORDING_DURATION = 60  # seconds
 SAMPLE_RATE = 44100  # Hz
-RECORDING_PATH = '/Users/aidanastridge/Documents/recordings/output.wav'
-TRANSCRIPT_PATH = '/Users/aidanastridge/Documents/recordings/transcript.json'
-DAILY_NOTES_PATH = '/Users/aidanastridge/Library/CloudStorage/GoogleDrive-astridgeaidan@gmail.com/My Drive/Public/Daily notes'
+RECORDING_PATH = 'output.wav'
+TRANSCRIPT_PATH = 'transcript.json'
+DAILY_NOTES_PATH = '/Daily notes'
 
 # Get today's date
 today_date = datetime.datetime.now().strftime('%Y-%m-%d')
