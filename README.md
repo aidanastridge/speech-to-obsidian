@@ -19,6 +19,7 @@ Records and transcribes daily-note into Obsidian vault.
 3. Transcribe
 4. Export to JSON
 5. Convert to Markdown
+6. Places it in Obsidian vault.
 
 #### Questions? 
 Why export to json instead of straight to Markdown right away?
