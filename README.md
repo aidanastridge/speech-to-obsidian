@@ -5,17 +5,12 @@
 Records and transcribes daily-note into Obsidian vault.
 
 #### Libraries
-sounddevice 
-<br>
-wavio
-<br>
-datetime
-<br>
-whisper
-<br>
-json
-<br>
-markitdown
+- sounddevice 
+- wavio
+- datetime
+- whisper
+- json
+- markitdown
 
 #### Order of Operations
 
@@ -26,9 +21,9 @@ markitdown
 5. Convert to Markdown
 
 #### Questions? 
-Why export to json instead of straight to Markdown?
+Why export to json instead of straight to Markdown right away?
 <br>
-Checking if the conversion is the problem.
+Checking if the conversion is the correct.
 
 #### License
 
