@@ -22,9 +22,9 @@ Records and transcribes daily-note into Obsidian vault.
 6. Places it in Obsidian vault.
 
 #### Questions? 
-Why export to json instead of straight to Markdown right away?
+Why export to json instead of straight to Markdown?
 <br>
-Checking if the conversion is the correct.
+I am checking if the conversion is correct.
 
 #### License
 
