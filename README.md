@@ -5,12 +5,12 @@
 Records and transcribes daily-note into Obsidian vault.
 
 #### Libraries
-- sounddevice 
-- wavio
-- datetime
-- whisper
-- json
-- markitdown
+- [sounddevice]() 
+- [wavio]()
+- [DateTime]()
+- [openai-whisper]()
+- [json]()
+- [markitdown]()
 
 #### Order of Operations
 
