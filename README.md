@@ -5,12 +5,12 @@
 Records and transcribes daily-note into Obsidian vault.
 
 #### Libraries
-- [sounddevice]() 
-- [wavio]()
-- [DateTime]()
-- [openai-whisper]()
-- [json]()
-- [markitdown]()
+- [sounddevice](https://python-sounddevice.readthedocs.io/en/0.5.1/) 
+- [wavio](https://github.com/WarrenWeckesser/wavio)
+- [DateTime](https://docs.python.org/3/library/datetime.html)
+- [openai-whisper](https://github.com/openai/whisper)
+- [json](https://docs.python.org/3/library/json.html#module-json)
+- [markitdown](https://github.com/microsoft/markitdown)
 
 #### Order of Operations
 
