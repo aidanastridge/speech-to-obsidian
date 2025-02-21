@@ -7,7 +7,7 @@ import json
 from markitdown import MarkItDown
 
 # Constants
-RECORDING_DURATION = 60  # seconds
+RECORDING_DURATION = 80  # seconds
 SAMPLE_RATE = 44100  # Hz
 RECORDING_PATH = 'output.wav'
 TRANSCRIPT_PATH = 'transcript.json'
@@ -33,7 +33,7 @@ with open(TRANSCRIPT_PATH, "w") as file:
     json.dump(result['text'], file, indent=4)
 
 # Convert transcript to Markdown
-md = MarkItDown()  # Set to True to enable plugins
+md = MarkItDown()  # Set to True to enable plugins, having errors when parameter is filled
 result = md.convert(TRANSCRIPT_PATH)
 
 # Save Markdown to daily notes file
