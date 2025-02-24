@@ -9,8 +9,6 @@ Records and transcribes daily-note into Obsidian vault.
 - [wavio](https://github.com/WarrenWeckesser/wavio)
 - [datetime](https://docs.python.org/3/library/datetime.html)
 - [openai-whisper](https://github.com/openai/whisper)
-- [json](https://docs.python.org/3/library/json.html#module-json)
-- [markitdown](https://github.com/microsoft/markitdown)
 
 ### Order of Operations
 
@@ -19,7 +17,6 @@ Records and transcribes daily-note into Obsidian vault.
 3. Transcribe
 5. Write to Markdown
 6. Places it in Obsidian vault
-
 
 ### License
 
