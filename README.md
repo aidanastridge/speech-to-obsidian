@@ -17,14 +17,9 @@ Records and transcribes daily-note into Obsidian vault.
 1. Record
 2. Export to WAV
 3. Transcribe
-4. Export to JSON
-5. Convert to Markdown
+5. Write to Markdown
 6. Places it in Obsidian vault
 
-### Questions? 
-Why export to json instead of straight to Markdown?
-<br>
-I am checking if the conversion was correct.
 
 ### License
 
