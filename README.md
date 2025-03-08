@@ -1,5 +1,8 @@
 ## Speech to Obsidian
 
+## UPDATE
+Superwhisper and/or Shortcuts work better, but this was still a fun experiment.
+
 ### Thesis
 
 Records and transcribes daily-note into Obsidian vault.
